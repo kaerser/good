@@ -6,7 +6,7 @@
 """
 
 import unittest
-from lesson1.demo1 import add
+from lesson1.demo1 import sigmod
 
 
 class MyTestCase(unittest.TestCase):
@@ -14,9 +14,8 @@ class MyTestCase(unittest.TestCase):
 	# 	self.assertEqual(True, False)
 
 	def test_add(self):
-		a, b = 3, 4
-		c = add(a, b)
-		self.assertEqual(c, 7, 'Check Failed!')
+		y=sigmod(100)
+		self.assertEqual(y, 1, 'Check Failed!')
 
 
 if __name__ == '__main__':
