@@ -25,7 +25,7 @@ users = db.ips
 # print x._WriteResult__acknowledged
 
 cur = users.find({
-	'Start_IP':{'$lte': 200130027001},'End_IP':{'$gte': 200130027001}
+	'Start_IP':{'$lte': 147100040003},'End_IP':{'$gte': 147100040003}
 },
 {'_id':0}
 )
