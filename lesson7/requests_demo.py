@@ -7,12 +7,12 @@
 
 import requests
 
-url = 'https://movie.douban.com/'
-# response = requests.get(url)
-# print response.status_code
+url = 'https://book.douban.com/tag/%E5%B0%8F%E8%AF%B4'
+response = requests.get(url)
+print response.status_code
 # print response.text
-image_url = 'https://img3.doubanio.com/view/movie_poster_cover/mpst/public/p2375019545.jpg'
-response = requests.get(image_url)
-f = open(image_url.split('/')[-1],'wb')
-f.write(response.content)
-f.close()
+# image_url = 'https://img3.doubanio.com/view/movie_poster_cover/mpst/public/p2375019545.jpg'
+# response = requests.get(image_url)
+# f = open(image_url.split('/')[-1],'wb')
+# f.write(response.content)
+# f.close()
