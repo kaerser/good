@@ -6,11 +6,15 @@
 """
 
 from HTMLParser import HTMLParser
+from threading import Thread,current_thread
+from Queue import Queue
 import requests
 import os,time
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+imgQueue = Queue()
 
 class Novel(object):
 	def __init__(self):
@@ -40,6 +44,16 @@ class Novel(object):
 		return imglocalpath
 
 
+def imgDownLoader(imgpath, headers):
+	global imgQueue
+	while not imgQueue.empty():
+		imgurl = imgQueue.get()
+		imgname = imgurl.split('/')[-1]
+		imglocalpath = os.path.join(imgpath, imgname)
+		img = requests.get(imgurl, headers)
+		with open(imglocalpath, 'wb') as f:
+			f.write(img.content)
+
 class DouBanNovelRankParser(HTMLParser):
 	def __init__(self):
 		HTMLParser.__init__(self)
@@ -64,6 +78,8 @@ class DouBanNovelRankParser(HTMLParser):
 		if self._new_novel_img == True and tag == 'img':
 			self.novels[-1].attrs.append(('novel_img_url', _getattr('src')))
 			# print self.novels[-1].attrs
+			global imgQueue
+			imgQueue.put(_getattr('src'))
 
 		if self._new_novel_info == False and tag == 'div' and _getattr('class') == 'info':
 			self._new_novel_info = True
@@ -94,7 +110,13 @@ if __name__ == '__main__':
 	if not os.path.exists(imgpath):
 		os.makedirs(imgpath)
 
-	for m in novelparser.novels:
-		m.downloadImg(imgpath, headers)
+	# for m in novelparser.novels:
+	# 	m.downloadImg(imgpath, headers)
+
+	threads = [Thread(target=imgDownLoader,args=[imgpath,headers]) for i in range(6)]
+	for t in threads:
+		t.start()
+	for t in threads:
+		t.join()
 
 	print time.time()-t1
