@@ -6,11 +6,14 @@
 """
 
 from HTMLParser import HTMLParser
-from threading import Thread,current_thread
+from threading import Thread
 from Queue import Queue
-import requests
-import os,time
+import os
+import time
 import sys
+
+import requests
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
