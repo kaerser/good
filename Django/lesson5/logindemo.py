@@ -6,34 +6,25 @@
 """
 
 import web
+# from web import form
 
 urls = (
-	'/index', 'index',
-	'/(test1|test2)', 'test'
-	'/(.*)', 'hello',
+    '/login' 'login',
+    '/index', 'index',
 )
-app = web.application(urls, globals())
 
+app = web.application(urls,globals())
+render = web.template.render('templates/')
 
 class index(object):
 	def GET(self):
-		return 'Yes,This is Index Page!'
+		# name = 'World'
+		# return render.index(name)
+		return render.login()
 
-	def POST(self):
-		pass
-
-	def DEL(self):
-		pass
-
-class test(object):
-	def GET(self,name):
-		return 'I am %s' % name
-
-class hello(object):
-	def GET(self,name):
-		if not name:
-			name = 'World'
-		return 'Hello '+name+'!'
+class login(object):
+	def GET(self):
+		return render.login()
 
 
 if __name__ == "__main__":
