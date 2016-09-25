@@ -1,0 +1,7 @@
+setup.py
+dataguru/__init__.py
+dataguru/mltools.py
+kaerserdemo.egg-info/PKG-INFO
+kaerserdemo.egg-info/SOURCES.txt
+kaerserdemo.egg-info/dependency_links.txt
+kaerserdemo.egg-info/top_level.txt
