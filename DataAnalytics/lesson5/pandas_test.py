@@ -42,4 +42,14 @@ if __name__ == "__main__":
 	                   index=['one', 'two', 'three', 'four', 'five'])
 	print frame2, frame2.columns
 	print frame2.year
+	frame2['debt'] = np.arange(5.)
+	print frame2
+	val = Series([-1.2, -1.5, -1.7], index=['two', 'four', 'five'])
+	frame2['debt'] = val
+	print frame2
+	frame2['eastern'] = frame2.state == 'Ohio'
+	print frame2
+	del frame2['eastern']
+	print frame2.columns
+
 
