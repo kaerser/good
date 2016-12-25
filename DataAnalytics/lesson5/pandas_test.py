@@ -52,4 +52,13 @@ if __name__ == "__main__":
 	del frame2['eastern']
 	print frame2.columns
 
+	#使用HTML和Web API
+	import requests,json
+	url = 'https://api.github.com/repos/pydata/pandas/milestones/28/labels'
+	resp = requests.get(url)
+	print resp
+	data_json = json.loads(resp.text)
+	issue_lables = DataFrame(data_json)
+	print issue_lables
+
 
