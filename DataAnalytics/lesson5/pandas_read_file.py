@@ -25,7 +25,14 @@ if __name__ == '__main__':
 	xls_file = pandas.ExcelFile('./data/ApplianceShipments.xls')
 	df3 = xls_file.parse(sheetname=sheet1.name,header=None)
 	print df3
-
+	#使用HTML和Web API
+	import requests,json
+	url = 'https://api.github.com/repos/pydata/pandas/milestones/28/labels'
+	resp = requests.get(url)
+	print resp
+	data_json = json.loads(resp.text)
+	issue_lables = DataFrame(data_json)
+	print issue_lables
 
 
 
