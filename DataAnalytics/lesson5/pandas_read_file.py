@@ -7,6 +7,8 @@
 
 import pandas,xlrd,xlwt
 import numpy
+from pandas import DataFrame
+import requests,json
 
 if __name__ == '__main__':
 	# 读取csv文件数据
@@ -26,7 +28,6 @@ if __name__ == '__main__':
 	df3 = xls_file.parse(sheetname=sheet1.name,header=None)
 	print df3
 	#使用HTML和Web API
-	import requests,json
 	url = 'https://api.github.com/repos/pydata/pandas/milestones/28/labels'
 	resp = requests.get(url)
 	print resp
