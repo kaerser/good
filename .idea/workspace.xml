@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1739c057-452b-46b0-8e7a-11a505ea47ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataAnalytics/lesson14/data/ex14.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataAnalytics/lesson14/task14.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbook/image/C6blbG6U4AIZN3A.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workbook/No1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -18,6 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/git4good$test.coverage" NAME="test Coverage Results" MODIFIED="1483682906660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalytics/lesson6" />
     <SUITE FILE_PATH="coverage/good$jinja2_demo.coverage" NAME="jinja2_demo Coverage Results" MODIFIED="1471798891968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/laowang" />
+    <SUITE FILE_PATH="coverage/git4good$No1.coverage" NAME="No1 Coverage Results" MODIFIED="1489595038972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workbook" />
     <SUITE FILE_PATH="coverage/git4good$task.coverage" NAME="task Coverage Results" MODIFIED="1488704708127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalytics/lesson13" />
     <SUITE FILE_PATH="coverage/git4good$pandas_test.coverage" NAME="pandas_test Coverage Results" MODIFIED="1482382016684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataAnalytics/lesson5" />
     <SUITE FILE_PATH="coverage/good$ip2long.coverage" NAME="ip2long Coverage Results" MODIFIED="1471956981939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson6" />
@@ -55,14 +56,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task14.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task14.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataAnalytics/lesson14/task14.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53333336">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="e#92#101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="No1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workbook/No1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,6 +128,7 @@
         <option value="$PROJECT_DIR$/DataAnalytics/lesson11/task2.py" />
         <option value="$PROJECT_DIR$/DataAnalytics/lesson13/task.py" />
         <option value="$PROJECT_DIR$/DataAnalytics/lesson14/task14.py" />
+        <option value="$PROJECT_DIR$/workbook/No1.py" />
       </list>
     </option>
   </component>
@@ -178,8 +190,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataAnalytics" />
+              <option name="myItemId" value="workbook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,16 +232,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataAnalytics" />
+              <option name="myItemId" value="workbook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson14" />
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,32 +269,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\git4good\workbook\image" />
       <recent name="D:\Work\git4good\DataAnalytics\lesson14\data" />
       <recent name="D:\Work\git4good\DataAnalytics\lesson11\data" />
       <recent name="E:\good\DataAnalytics\lesson7" />
       <recent name="E:\good\DataAnalytics\lesson6\data\task" />
-      <recent name="E:\good\DataAnalytics\lesson6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task14">
-    <configuration default="false" name="task3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataAnalytics/lesson7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="good" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalytics/lesson7/task3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.No1">
     <configuration default="false" name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,6 +345,24 @@
       <module name="good" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataAnalytics/lesson14/task14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="No1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workbook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="good" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workbook/No1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -587,19 +599,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.task3 (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.task2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.task1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.task" />
-      <item index="4" class="java.lang.String" itemvalue="Python.task14" />
+      <item index="0" class="java.lang.String" itemvalue="Python.task2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.task1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.task" />
+      <item index="3" class="java.lang.String" itemvalue="Python.task14" />
+      <item index="4" class="java.lang.String" itemvalue="Python.No1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.task14" />
-        <item index="1" class="java.lang.String" itemvalue="Python.task" />
-        <item index="2" class="java.lang.String" itemvalue="Python.task2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.task1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.task3 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.No1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.task14" />
+        <item index="2" class="java.lang.String" itemvalue="Python.task" />
+        <item index="3" class="java.lang.String" itemvalue="Python.task2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +698,13 @@
       <option name="project" value="LOCAL" />
       <updated>1488705124854</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="聚类分析">
+      <created>1489297025592</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1489297025592</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -702,7 +720,7 @@
     <frame x="58" y="-8" width="1316" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2356688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23964968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.4968153" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5088" sideWeight="0.5063694" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -769,7 +787,8 @@
     <MESSAGE value="异常值处理" />
     <MESSAGE value="lesson6课程作业" />
     <MESSAGE value="KNN" />
-    <option name="LAST_COMMIT_MESSAGE" value="KNN" />
+    <MESSAGE value="聚类分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="聚类分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,13 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson5/check_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson6/ip2long.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1147,19 +1159,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-          <folding>
-            <element signature="e#91#109#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataAnalytics/lesson14/task14.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53333336">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
           <folding>
             <element signature="e#92#101#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbook/No1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
